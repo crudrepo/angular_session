@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./emp-data.component.scss']
 })
 export class EmpDataComponent implements OnInit {
-
+x;
   @Input() employeeInfo: any;
   ELEMENT_DATA = [
     {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
